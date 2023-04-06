@@ -28,6 +28,25 @@
     font-weight: normal;
 }
 
+@keyframes apparitionMenuETC {
+    from{
+        margin-left: 100vh;
+    }to{
+    margin-left: 0;
+         }
+}
+
+@keyframes disparitionMenuETC {
+    from{
+        margin-left: 0;
+    }to{
+    margin-left: 100vh;
+         }
+}
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -41,9 +60,10 @@
 /*HEADER*/
 
 header{
-    height: 15vh;
-    display: flex;
-    flex-direction: row;
+    height: 17vh;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    grid-template-rows: 100%;
     justify-content: center;
     position: fixed;
     border-top: 8px solid #1c9aea;
@@ -53,48 +73,111 @@ header{
 }
 
 header >a{
-    width: 15%;
+    width: 100%;
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 header > a img{
-    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
     margin: auto;
+    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 
-.menu{
+nav{
     display: grid;
     grid-template-rows: 100%;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 80%;
+    width: 100%;
     font-size: 1.5em;
+    height: 100%;
+    grid-column: 2/-1;
 }
 
-.menu a{
+nav a{
     color: black;
     text-decoration: none;
     font-family: "Caveat", sans-serif;
     transition: transform 0.5s;
     width: max-content;
-    padding-left: 15px;
-    padding-right: 15px;
     margin: auto;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 }
 
-.menu a:hover{
+nav a:hover{
     transform: scale(1.15);
 }
 
 
 .underline{
-    border: #1c9aea solid 3px;
-    padding: 5px;
+    border-bottom: #1c9aea solid 3px;
+    border-top: #1c9aea solid 3px;
+    padding: 3px 10px 5px;
 }
+
+header button{
+    display: none;
+    height: max-content;
+    width: max-content;
+    font-size: 3em;
+    color: #1c9aea;
+    background: none;
+    border: none;
+    align-self: center;
+    justify-self: center;
+    position: absolute;
+    z-index: 9;
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px){
+    header{
+        position: sticky;
+    }
+
+    nav{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color: #1c9aea;
+        width: 100%;
+        height: 100vh;
+        justify-content: space-between;
+        grid-column: 1/-1;
+        margin: 0 0 0 100vw;
+        transition: all 0.5s;
+    }
+
+    nav a{
+        color: white;
+        font-size: 1.3em;
+    }
+
+    header > a{
+        grid-column: 1/4;
+        height: 139px;
+        cursor: default;
+    }
+
+    header > a img{
+        cursor: pointer;
+    }
+
+    header button{
+        grid-column: -2/-1;
+        display: block;
+    }
+
+    #contenuBoutonNav{
+        transition: all 0.5s;
+    }
+}
+
 
 /*FOOTER*/
