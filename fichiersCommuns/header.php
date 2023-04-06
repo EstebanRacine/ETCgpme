@@ -8,6 +8,8 @@ $produitsClass = "";
 
 if ($file == "contact.php"){
     $contactClass = "underline";
+}elseif ($file == "accueil.php"){
+    $accueilClass = "underline";
 }elseif ($file == "quiSommesNous.php"){
     $infosETCClass = "underline";
 }elseif ($file == "produits.php"){
@@ -23,6 +25,7 @@ if ($file == "contact.php"){
 <header>
     <a href="accueil.php"><img src="images/logoETC.png" alt="Logo d'ETC"></a>
     <div class="menu">
+        <a href="accueil.php" class="<?= $accueilClass ?>">Accueil</a>
         <a href="produits.php" class="<?= $produitsClass ?>">Nos Produits</a>
         <a href="quiSommesNous.php" class="<?= $infosETCClass?>">Qui sommes-nous ?</a>
         <a href="contact.php" class="<?= $contactClass ?>">Contact</a>
