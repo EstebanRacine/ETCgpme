@@ -16,6 +16,12 @@
     include "fichiersCommuns/header.php";
     ?>
 
+    <div class="contenuSavoirPlus">
+        <div class="divVideoInfos">
+
+        </div>
+    </div>
+
     <?php
     include "fichiersCommuns/footer.php";
     ?>

@@ -17,6 +17,10 @@
     include "fichiersCommuns/header.php";
     ?>
 
+    <div class="contenuProduits">
+
+    </div>
+
     <?php
     include "fichiersCommuns/footer.php";
     ?>
