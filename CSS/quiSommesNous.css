@@ -1,0 +1,153 @@
+.divVideoInfos{
+    height: 45vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 100%;
+    background: linear-gradient(to bottom, #1c9aea 90%, white);
+    color: white;
+    /*background: #1c9aea;*/
+    padding-bottom: 5vh;
+}
+
+.divVideoInfos video{
+    height: auto;
+    width: 90%;
+    max-height: 350px;
+    max-width: 550px;
+    align-self: center;
+    justify-self: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+
+.infosETC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+.infosETC h1{
+    text-align: center;
+    width: 100%;
+    font-family: Caveat, sans-serif;
+    padding-bottom: 20px;
+}
+
+.infosETC p{
+    align-self: center;
+    text-align: justify;
+    width: 75%;
+    font-size: 1.05em;
+}
+
+/*POLES*/
+
+.infosPole{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.infosPole h1{
+    text-align: center;
+    font-family: "FontinSans", sans-serif;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.carroussel{
+    flex-direction: row;
+    height: 50vh;
+}
+
+.slick-slider{
+    display: flex;
+}
+
+.slick-track{
+    height: 70%;
+    width: 23vh;
+}
+
+.slick-list{
+    width: 90%;
+    height: 100%;
+}
+
+article{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+article h3{
+    text-align: center;
+    padding: 5px;
+}
+
+article img{
+    height: 60%;
+    width: 100%;
+    object-fit: cover;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+.slick-arrow{
+    color: #1c9aea;
+    height: 25%;
+    align-self: center;
+    width: 10vh;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.slick-slide{
+    width: 50%;
+}
+
+.fa-arrow-left:hover{
+    transform: translateX(-5px);
+}
+
+.fa-arrow-right:hover{
+    transform: translateX(5px);
+}
+
+.fa-arrow-left, .fa-arrow-right{
+    transition: transform 0.5s;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+
+    .divVideoInfos{
+        height: 90vh;
+        width: 100%;
+        grid-template-rows: max-content 40%;
+        grid-template-columns: 90%;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .divVideoInfos video{
+        /*height: 28vh;*/
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }
+
+    .infosETC{
+        padding: 0;
+    }
+}

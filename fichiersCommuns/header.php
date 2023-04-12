@@ -22,7 +22,7 @@ if ($file == "contact.php"){
 
 
 <header>
-    <a href="accueil.php"><img src="images/logoETC.png" alt="Logo d'ETC"></a>
+    <a href="accueil.php"><img src="images/logoETC2.png" alt="Logo d'ETC"></a>
     <nav id="Menu">
         <a href="accueil.php" class="<?= $accueilClass ?>">Accueil</a>
         <a href="produits.php" class="<?= $produitsClass ?>">Nos Produits</a>
