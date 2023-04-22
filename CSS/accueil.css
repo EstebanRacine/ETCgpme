@@ -1,4 +1,14 @@
-h1{
+
+.welcome{
+    font-family: ChunkFiveEx, sans-serif;
+    margin-bottom: 0.15cm;
+    font-weight: lighter;
+    color: #1c9aea;
+    text-shadow: 0 0 15px antiquewhite;
+}
+
+
+.ETCName{
     font-family: "ChunkFiveEx", sans-serif;
     border-bottom: black solid 3px;
     width: 100px;
@@ -11,7 +21,7 @@ h1{
     font-family: FontinSans, sans-serif;
     width: max-content;
     font-size: 1.4em;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
 }
 
 .enroule:before, .enroule:after{

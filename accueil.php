@@ -18,7 +18,8 @@
     ?>
 
     <div class="contenuAccueil">
-        <h1>ETC</h1>
+        <h1 class="welcome">Bienvenue sur</h1>
+        <h1 class="ETCName">ETC</h1>
         <h2 class="enroule">ENROULE TON CABLE</h2>
         <h2 class="slogan">C'EST IMPE'CABLE</h2>
         <img src="images/accueil/imgAccueil.jpg" alt="Image de produits">
