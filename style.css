@@ -28,23 +28,6 @@
     font-weight: normal;
 }
 
-@keyframes apparitionMenuETC {
-    from{
-        margin-left: 100vh;
-    }to{
-    margin-left: 0;
-         }
-}
-
-@keyframes disparitionMenuETC {
-    from{
-        margin-left: 0;
-    }to{
-    margin-left: 100vh;
-         }
-}
-
-
 
 
 *{
@@ -166,6 +149,7 @@ footer{
 footer p{
     text-align: center;
     width: 100%;
+    cursor: default;
 }
 
 @media screen and (max-width: 800px){

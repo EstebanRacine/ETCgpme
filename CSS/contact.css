@@ -1,0 +1,205 @@
+
+.contenuContact{
+    height: 67vh;
+    background: transparent;
+    display: grid;
+    grid-template-rows: 100% 0;
+    grid-template-columns: 50% 50%;
+    position: relative;
+    width: 85vw;
+    margin: 22vh auto 5vh;
+    border-radius: 17px;
+    border: #1c9aea solid 5px;
+}
+
+.TitreTel{
+    color: white;
+    justify-content: center;
+    font-family: Caveat, sans-serif;
+    cursor: default;
+    background-color: #6ca5e7;
+    margin: 2.5vh auto 0;
+    width: 75%;
+    padding: 0 50px;
+    height: 125px;
+    font-size: 2.25em;
+    align-items: center;
+    border: 3px solid #fdfdfd;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    display: none;
+}
+
+.contenuContact img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.reseaux{
+    background-color: #1c9aea;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(5, 20%);
+}
+
+.reseaux h2{
+    font-family: Caveat, sans-serif;
+    color: white;
+    font-size: 2.5em;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.reseaux a{
+    justify-self: center;
+    color: white;
+    font-family: FontinSans, sans-serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    height: 70%;
+    width: 210px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.reseaux a i{
+    font-size: 2.40em;
+    width: 51px;
+    margin-right: 15px;
+    transition: all 0.5s;
+}
+
+.reseaux a:hover{
+    scale: 1.1;
+}
+
+.reseaux a:hover i{
+    color: #bedeff;
+}
+
+
+
+.blocAbsContact{
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 350px;
+    /*border: 4px solid black;*/
+    border-radius: 10px;
+    padding: 5px 10px;
+    grid-column: 1/-1;
+    justify-self: center;
+    margin-top: -47.5vh;
+    /*background-color: #1c9aea;*/
+}
+
+.titreContact{
+    color: white;
+    text-align: center;
+    font-family: Caveat, sans-serif;
+    cursor: default;
+    background-color: #6ca5e7;
+    margin: 2.5vh auto 0;
+    width: 75%;
+    padding: 0 50px;
+    height: 125px;
+    display: flex;
+    font-size: 2.25em;
+    align-items: center;
+    border: 3px solid #fdfdfd;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.blocAbsContact a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fdfdfd;
+    height: 2cm;
+    border-radius: 10px;
+    padding: 5px 45px 5px 5px;
+    text-decoration: none;
+    color: #6ca5e7;
+    font-family: Baskerville, sans-serif;
+    font-size: 1.1em;
+}
+
+
+
+@media screen and (max-width: 800px){
+    .contenuContact{
+        margin-top: 5vh;
+    }
+}
+
+
+@media screen and (max-width: 1275px){
+    .contenuContact{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10vh;
+        height: max-content;
+    }
+
+    #imageDecorContact{
+        display: none;
+    }
+
+    .TitreTel {
+        display: flex;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .titreContact{
+        display: none;
+    }
+
+
+    .reseaux{
+        border-radius: 10px;
+    }
+
+    .reseaux > *{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .blocAbsContact{
+        margin: auto;
+        width: 100%;
+        padding: 0;
+    }
+
+    .blocAbsContact a{
+        width: 95%;
+        border: 4px solid #6ca5e7;
+        border-top: none;
+        margin: auto;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+
+    .contactMail{
+        width: 100%;
+        height: max-content;
+        text-align: center;
+        font-size: 2em;
+        min-height: 2cm;
+    }
+}
