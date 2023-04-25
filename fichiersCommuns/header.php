@@ -25,7 +25,7 @@ if ($file == "contact.php"){
     <a href="accueil.php"><img src="images/logoETC2.png" alt="Logo d'ETC"></a>
     <nav id="Menu">
         <a href="accueil.php" class="<?= $accueilClass ?>">Accueil</a>
-        <a href="produits.php" class="<?= $produitsClass ?>">Nos Produits</a>
+        <a href="produits.php" class="<?= $produitsClass ?>">Notre Produit</a>
         <a href="quiSommesNous.php" class="<?= $infosETCClass?>">Qui sommes-nous ?</a>
         <a href="contact.php" class="<?= $contactClass ?>">Contact</a>
     </nav>
