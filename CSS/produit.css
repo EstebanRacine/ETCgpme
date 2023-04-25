@@ -1,0 +1,210 @@
+.contenuProduits > h1{
+    height: 20vh;
+    display: flex;
+    font-size: 2.5em;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #1c9aea 80%, white);
+    color: #fdfdfd;
+    font-family: Caveat, sans-serif;
+    text-align: center;
+}
+
+.infosProd{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 30px auto;
+}
+
+.imagesProd{
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-right: 100px;
+}
+
+#imgActive{
+    width: 340px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 15px auto 15px;
+}
+
+.gridSelectionImg{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(5, 75px);
+    grid-template-rows: 75px;
+    grid-gap: 3px;
+}
+
+.miniPhoto, .miniPhotoActive{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.miniPhotoActive{
+    opacity: 0.9;
+}
+
+.miniPhoto{
+    opacity: 0.5;
+}
+
+.descrProd{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.descrProd p{
+    text-align: justify;
+    margin-bottom: 35px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1c9aea;
+    margin-top: 35px;
+}
+
+.descrProd a, .btnModeEmploi{
+    color: white;
+    border-radius: 50px;
+    padding: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #1c9aea;
+    transition: all 0.5s;
+    border: 5px solid #1a86c5;
+}
+
+.descrProd a:hover, .btnModeEmploi:hover{
+    color: #1c9aea;
+    background-color: white;
+}
+
+.caracteristiques h1, .emploi h1{
+    text-align: center;
+    margin-top: 45px;
+    grid-column: 1/-1;
+    font-size: 2.5em;
+    font-family: Caveat, sans-serif;
+    color: #1c9aea;
+    margin-bottom: 45px;
+}
+
+.caracteristiques{
+    width: 100%;
+    display: grid;
+    grid-template-rows: max-content max-content;
+    grid-template-columns: 1fr 1fr;
+}
+
+.infosCarac{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #1c9aea;
+    margin-right: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.infosCarac h3{
+    text-align: center;
+    padding: 30px;
+    font-size: 1.3em;
+}
+
+.infosCarac i{
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.rondCouleur{
+    height: 3.5vh;
+    display: inline-block;
+    width: 3.5vh;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.bleu{
+    background-color: steelblue;
+}
+
+.orange{
+    background-color: darkorange;
+}
+
+.vert{
+    background-color: #39ada9;
+}
+
+.violet{
+    background-color: mediumpurple;
+}
+
+.rouge{
+    background-color: #ff3737;
+}
+
+#imageCarac{
+    border-radius: 20px;
+    width: 50%;
+    align-self: center;
+    justify-self: center;
+}
+
+.modeEmploiUtil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.modeEmploiUtil video{
+    height: 60vh;
+    margin-right: 45px;
+    border-radius: 20px;
+}
+
+.btnModeEmploi{
+    font-size: 1.2em;
+}
+
+@media screen and (max-width: 1200px){
+    .contenuProduits > h1{
+        font-size: 2em;
+    }
+
+    .infosProd{
+        flex-direction: column;
+        width: 400px;
+    }
+
+    #imageCarac{
+        display: none;
+    }
+
+    .infosCarac{
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    .modeEmploiUtil{
+        flex-direction: column;
+    }
+
+    .modeEmploiUtil video{
+        margin-right: 0;
+    }
+
+}
