@@ -35,26 +35,53 @@
                 <article>
                     <img src="images/quiSommesNous/storyCom.PNG" alt="Image du Pole Communication">
                     <h3>Pôle Communication</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque blanditiis, cum delectus dolores eum explicabo facilis fugit libero maxime, modi non odit provident quibusdam repellendus repudiandae sequi voluptate voluptates voluptatibus.</p>
                 </article>
 
                 <article>
                     <img src="images/quiSommesNous/storyCoo.PNG" alt="Image du Pole Coordination">
                     <h3>Pôle Coordination</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, dolorem dolores fuga harum, ipsam laudantium libero obcaecati odit perferendis perspiciatis quos ratione saepe tempora. Cupiditate facilis modi molestias ratione sequi.</p>
                 </article>
 
                 <article>
                     <img src="images/quiSommesNous/storyFin.PNG" alt="Image du Pole Finance">
                     <h3>Pôle Finance</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta doloremque modi neque rem voluptas. Asperiores aspernatur deleniti dignissimos doloribus, enim error est exercitationem libero quo recusandae saepe, totam voluptatum. Impedit?</p>
                 </article>
 
                 <article>
                     <img src="images/quiSommesNous/storyPro.PNG" alt="Image du Pole Production">
                     <h3>Pôle Production</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam architecto atque beatae consequuntur deleniti error impedit in incidunt itaque, modi natus neque nihil perspiciatis quaerat quisquam suscipit, temporibus veniam voluptatibus?</p>
                 </article>
+            </div>
+        </div>
+        <div class="infosPartenaires">
+            <h1>Nos partenaires</h1>
+
+            <div class="partenaires">
+                <img src="images/quiSommesNous/EPA.png" alt="Logo d'EPA">
+                <h2>Entreprendre Pour Apprendre</h2>
+                <h3>EPA</h3>
+                <p>Nous permet de faire vivre une aventure entrepreneuriale collective.</p>
+            </div>
+
+            <div class="partenaires">
+                <img src="images/quiSommesNous/biathlon.png" alt="Logo de Biathlon Sanseigne">
+                <h2>Biathlon Sanseigne</h2>
+                <h3>Jason DREZET</h3>
+                <p>Spécialiste en carabine de biathlon, crosses et accessoires situé aux Rousses dans le Jura.</p>
+            </div>
+
+            <div class="partenaires">
+                <img src="images/quiSommesNous/humbert.png" alt="Représentation de HUMBERT ELECTRICITE">
+                <h2>HUMBERT Elécricité</h2>
+                <h3>Romain HUMBERT</h3>
+                <p>Notre mentor qui est situé à Sarrogna dans le Jura.</p>
+            </div>
+
+            <div class="partenaires">
+                <img src="images/quiSommesNous/BTSSIO.png" alt="Représentation du BTS SIO">
+                <h2>BTS SIO du lycée Louis Pergaud</h2>
+                <h3>Esteban RACINE</h3>
+                <p>Autre BTS de notre lycée avec lequel nous sommes en collaboration pour la gestion de notre site Internet.</p>
             </div>
         </div>
     </div>

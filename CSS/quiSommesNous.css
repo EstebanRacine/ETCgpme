@@ -50,7 +50,7 @@
     margin: 30px auto;
 }
 
-.infosPole h1{
+.infosPole h1, .infosPartenaires h1{
     text-align: center;
     font-family: "FontinSans", sans-serif;
     margin-bottom: 50px;
@@ -59,7 +59,7 @@
 
 .carroussel{
     flex-direction: row;
-    height: 50vh;
+    height: 30vh;
 }
 
 .slick-slider{
@@ -80,15 +80,22 @@ article{
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
+    width: 70%;
 }
 
 article h3{
-    text-align: center;
     padding: 5px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
 }
 
 article img{
-    height: 60%;
+    height: 100%;
     width: 100%;
     object-fit: cover;
     border-top-right-radius: 10px;
@@ -125,6 +132,53 @@ article img{
 }
 
 
+.infosPartenaires{
+    width: 80%;
+    margin: 10px auto auto;
+    display: grid;
+    grid-template-rows: repeat(2, max-content);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.infosPartenaires h1{
+    grid-column: 1/-1;
+}
+
+.infosPartenaires img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.infosPartenaires h2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.6em;
+}
+
+.infosPartenaires h3{
+    text-align: center;
+    color: darkgray;
+    width: 50%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    border-bottom: 2px solid black;
+}
+
+.infosPartenaires p{
+    width: 70%;
+    margin: 10px auto auto;
+    text-align: center;
+    font-size: large;
+}
+
+.partenaires{
+    display: grid;
+    margin-bottom: 60px;
+    grid-template-rows: 100px max-content max-content max-content;
+}
+
 
 @media screen and (max-width: 800px) {
 
@@ -149,5 +203,18 @@ article img{
 
     .infosETC{
         padding: 0;
+    }
+
+    .infosPartenaires{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(5, max-content);
+    }
+
+    .infosPartenaires h1{
+        margin-bottom: 30px;
+    }
+
+    .infosPartenaires h2{
+        margin-top: 10px;
     }
 }
