@@ -78,6 +78,13 @@
             </div>
 
             <div class="partenaires">
+                <img src="images/quiSommesNous/salvi.png" alt="Logo de Salvi">
+                <h2>Salvi Sanglier</h2>
+                <h3>Famille Salvi</h3>
+                <p>Une entreprise tierce qui nous permet de vous proposer une boite en bois made in Franche-Comté !</p>
+            </div>
+
+            <div class="partenaires">
                 <img src="images/quiSommesNous/BTSSIO.png" alt="Représentation du BTS SIO">
                 <h2>BTS SIO du lycée Louis Pergaud</h2>
                 <h3>Esteban RACINE</h3>
