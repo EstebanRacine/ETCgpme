@@ -19,7 +19,7 @@
     ?>
 
     <div class="contenuProduits">
-        <h1>Découvrez notre range câble !</h1>
+        <h1>Découvrez notre boite range câble et prise !</h1>
         <div class="infosProd">
             <div class="imagesProd">
                 <img id="imgActive" src="images/produits/prod1.jpg" alt="Image principal du produit">
@@ -33,7 +33,7 @@
             </div>
             <div class="descrProd">
                 <p>
-                    Nous vous présentons un produit innovant et qui peut vous aider régulièrement.
+                    Nous vous présentons un produit innovant qui va vous permettre de ranger votre propre câble.
                     <br><br> Le range câble d'ETC vous donne la possibilité de transporter vos câbles
                     sans qu'ils ne risquent de s'abimer.<br><br> Il est facile d'utilisation et est
                     utilisable pour tout type d'appareil que ce soit Android ou Apple.<br><br>
@@ -44,8 +44,8 @@
                     Vaux et Chantegrue. Cette boîte a pour fonctionnalité de renfermer le
                     produit pour le sécuriser.
                 </p>
-                <h2>Prix sans boite : 10 €</h2>
-                <h2>Prix avec boite : 11 €</h2>
+                <h2>Prix du produit : 10 €</h2>
+                <h2>Prix avec son emballage : 11 €</h2>
                 <a href="contact.php"><h2>Contactez nous pour réserver !</h2></a>
             </div>
         </div>
@@ -54,8 +54,8 @@
             <h1>Caractéristiques</h1>
             <div class="infosCarac">
                 <h3> <i class="fa-solid fa-ruler-vertical"></i> Diamètre : 7.30 cm</h3>
-                <h3> <i class="fa-sharp fa-solid fa-weight-hanging"></i> Poids : entre 40g et 50g</h3>
-                <h3> <i class="fa-solid fa-plug"></i> Pour les câbles mesurant au maximum 1m</h3>
+                <h3> <i class="fa-sharp fa-solid fa-weight-hanging"></i> Poids : 65g</h3>
+                <h3> <i class="fa-solid fa-plug"></i> Compatible avec les câbles d'un mètre maximum</h3>
                 <h3> <i class="fa-solid fa-palette"></i> Coloris disponibles : </h3>
                 <h3> <span class="rondCouleur bleu"></span>
                     <span class="rondCouleur orange"></span>
