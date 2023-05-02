@@ -23,10 +23,7 @@
             <video src="videos/videoTest.mp4" class="videoPresentation" controls></video>
             <div class="infosETC">
                 <h1>Enroule Ton Cable</h1>
-                <p>Nous sommes les élèves de première année de BTS GPME, nous avons créé notre mini-entreprise ETC
-                    (Enroule Ton Cable). Nous vous proposons un range-câble en matière recyclable de différents coloris.
-                    Suite à un sondage, nous avons constaté que les personnes les plus intéressés par notre produit sont
-                    autant masculins que féminins et pour la plupart lycéens ou salariés.</p>
+                <p>Etudiant(e)s en première année de BTS GPME, nous avons avec l'aide de nos professeurs Mesdames Bailly et Drezet, créé notre mini-entreprise ETC (Enroule Ton Câble).</p>
             </div>
         </div>
         <div class="infosPole">
@@ -87,7 +84,7 @@
             <div class="partenaires">
                 <img src="images/quiSommesNous/travailCouleur.png" alt="Logo de Travail en couleur">
                 <h2>Travail en couleur</h2>
-                <h3>A AJOUTER</h3>
+                <h3>Sylvie DABERE</h3>
                 <p>Cette entreprise située à Doubs a assuré la fourniture et le marquage des t-shirts à l'effigie d'ETC. </p>
             </div>
 
