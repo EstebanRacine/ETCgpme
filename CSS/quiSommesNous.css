@@ -59,7 +59,7 @@
 
 .carroussel{
     flex-direction: row;
-    height: 30vh;
+    height: 35vh;
 }
 
 .slick-slider{
@@ -85,7 +85,7 @@ article{
 
 article h3{
     padding: 5px;
-    width: 70%;
+    width: 180px;
     margin: auto;
     text-align: center;
     display: flex;
