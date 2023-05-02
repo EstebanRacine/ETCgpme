@@ -129,31 +129,35 @@
 }
 
 .rondCouleur{
-    height: 3.5vh;
+    height: 4vh;
     display: inline-block;
-    width: 3.5vh;
+    width: 4vh;
     border: 3px solid white;
     border-radius: 50%;
 }
 
-.bleu{
-    background-color: steelblue;
-}
-
-.orange{
-    background-color: darkorange;
-}
-
-.vert{
-    background-color: #39ada9;
+.multicolore{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 .violet{
     background-color: mediumpurple;
 }
 
-.rouge{
-    background-color: #ff3737;
+.bleu-vert{
+    background: linear-gradient(to right bottom, #208bb2 50%, #44ab44 50%);
+}
+
+.or-argent{
+    background: linear-gradient(to right bottom, #ffcb00 50%, #5b5959 50%);
+}
+
+.rouge-noir{
+    background: linear-gradient(to right bottom, red 50%, black 50%);
+}
+
+.bois{
+    background-image: url("https://st.depositphotos.com/1003553/2356/i/600/depositphotos_23563359-stock-photo-texture-of-wood-background-closeup.jpg");
 }
 
 #imageCarac{
@@ -174,6 +178,7 @@
     height: 60vh;
     margin-right: 45px;
     border-radius: 20px;
+    box-shadow: 0 0 15px #1a86c5;
 }
 
 .btnModeEmploi{
