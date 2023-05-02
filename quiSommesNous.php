@@ -67,21 +67,28 @@
                 <img src="images/quiSommesNous/biathlon.png" alt="Logo de Biathlon Sanseigne">
                 <h2>Biathlon Sanseigne</h2>
                 <h3>Jason DREZET</h3>
-                <p>Spécialiste en carabine de biathlon, crosses et accessoires situé aux Rousses dans le Jura.</p>
+                <p>Spécialiste en carabine de biathlon, crosses et accessoires situé aux Rousses dans le Jura. Il a permis d'assurer l'étude, le développement et la fabrication de notre produit.</p>
             </div>
 
-            <div class="partenaires">
-                <img src="images/quiSommesNous/humbert.png" alt="Représentation de HUMBERT ELECTRICITE">
-                <h2>HUMBERT Elécricité</h2>
-                <h3>Romain HUMBERT</h3>
-                <p>Notre mentor qui est situé à Sarrogna dans le Jura.</p>
-            </div>
+<!--            <div class="partenaires">-->
+<!--                <img src="images/quiSommesNous/humbert.png" alt="Représentation de HUMBERT ELECTRICITE">-->
+<!--                <h2>HUMBERT Elécricité</h2>-->
+<!--                <h3>Romain HUMBERT</h3>-->
+<!--                <p>Notre mentor qui est situé à Sarrogna dans le Jura.</p>-->
+<!--            </div>-->
 
             <div class="partenaires">
                 <img src="images/quiSommesNous/salvi.png" alt="Logo de Salvi">
                 <h2>Salvi Sanglier</h2>
-                <h3>Famille Salvi</h3>
-                <p>Une entreprise tierce qui nous permet de vous proposer une boite en bois made in Franche-Comté !</p>
+                <h3>Patrick Salvi</h3>
+                <p>Une entreprise tierce qui nous permet de vous proposer une boite en bois comme emballage.</p>
+            </div>
+
+            <div class="partenaires">
+                <img src="images/quiSommesNous/travailCouleur.png" alt="Logo de Travail en couleur">
+                <h2>Travail en couleur</h2>
+                <h3>A AJOUTER</h3>
+                <p>Cette entreprise située à Doubs a assuré la fourniture et le marquage des t-shirts à l'effigie d'ETC. </p>
             </div>
 
             <div class="partenaires">
