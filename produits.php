@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/produit.css">
-    <link rel="shortcut icon" href="images/logoETC.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logoETC2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Nos Produits</title>
@@ -53,7 +53,7 @@
                 <h3> <i class="fa-sharp fa-solid fa-weight-hanging"></i> Poids : 65g</h3>
                 <h3> <i class="fa-solid fa-plug"></i> Compatible avec les câbles d'un mètre maximum</h3>
                 <h3> <i class="fa-solid fa-palette"></i> Coloris disponibles : </h3>
-                <h3> <span class="rondCouleur multicolore"></span>
+                <h3 id="groupRound"> <span class="rondCouleur multicolore"></span>
                     <span class="rondCouleur violet"></span>
                     <span class="rondCouleur bleu-vert"></span>
                     <span class="rondCouleur or-argent"></span>

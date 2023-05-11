@@ -67,6 +67,7 @@ header >a{
     justify-content: center;
     position: relative;
     margin-left: 15px;
+
 }
 
 header > a img{
@@ -178,7 +179,7 @@ footer p{
     header > a{
         grid-column: 1/4;
         height: 139px;
-        margin: auto;
+        margin: 10px auto auto;
         cursor: default;
     }
 
