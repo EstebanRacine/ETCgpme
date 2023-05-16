@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     width: max-content;
+    align-items: center;
     margin-right: 100px;
 }
 
@@ -34,7 +35,7 @@
 
 .gridSelectionImg{
     display: grid;
-    width: 100%;
+    width: max-content;
     grid-template-columns: repeat(5, 75px);
     grid-template-rows: 75px;
     grid-gap: 3px;
@@ -64,7 +65,7 @@
 
 .descrProd p{
     text-align: justify;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
     font-size: 1.2em;
     font-weight: bold;
     color: #1c9aea;
@@ -74,6 +75,7 @@
 .descrProd a, .btnModeEmploi{
     color: white;
     border-radius: 50px;
+    text-align: center;
     padding: 20px;
     margin-top: 25px;
     cursor: pointer;
@@ -129,31 +131,39 @@
 }
 
 .rondCouleur{
-    height: 3.5vh;
+    height: 4vh;
     display: inline-block;
-    width: 3.5vh;
+    width: 4vh;
     border: 3px solid white;
     border-radius: 50%;
 }
 
-.bleu{
-    background-color: steelblue;
+#groupRound{
+    padding-top: 0 ;
 }
 
-.orange{
-    background-color: darkorange;
-}
-
-.vert{
-    background-color: #39ada9;
+.multicolore{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 .violet{
     background-color: mediumpurple;
 }
 
-.rouge{
-    background-color: #ff3737;
+.bleu-vert{
+    background: linear-gradient(to right bottom, #208bb2 50%, #44ab44 50%);
+}
+
+.or-argent{
+    background: linear-gradient(to right bottom, #ffcb00 50%, #5b5959 50%);
+}
+
+.rouge-noir{
+    background: linear-gradient(to right bottom, red 50%, black 50%);
+}
+
+.bois{
+    background-image: url("https://st.depositphotos.com/1003553/2356/i/600/depositphotos_23563359-stock-photo-texture-of-wood-background-closeup.jpg");
 }
 
 #imageCarac{
@@ -172,6 +182,7 @@
 
 .modeEmploiUtil video{
     height: 60vh;
+    box-shadow: 0 0 15px #1a86c5;
     margin-right: 45px;
     border-radius: 20px;
 }
@@ -185,19 +196,47 @@
         font-size: 2em;
     }
 
+    /*.gridSelectionImg{*/
+    /*    width: 85vw;*/
+    /*    grid-template-columns: repeat(5, 16vw);*/
+    /*    grid-template-rows: 17vw;*/
+    /*}*/
+
     .infosProd{
         flex-direction: column;
-        width: 400px;
+        width: 100vw;
+    }
+
+    #imageActive{
+        width : 90vw;
+        height: 90vw;
+    }
+
+    .imagesProd{
+        width: 95vw;
+        margin: auto;
     }
 
     #imageCarac{
         display: none;
     }
 
+    .descrProd{
+        width: 90%;
+        margin: auto;
+    }
+
+    .caracteristiques h1{
+        margin-top: 35px;
+        margin-bottom: 35px;
+        width: 100vw;
+    }
+
     .infosCarac{
         width: 100vw;
         border-radius: 0;
     }
+
 
     .modeEmploiUtil{
         flex-direction: column;
@@ -207,4 +246,19 @@
         margin-right: 0;
     }
 
+    .rondCouleur{
+        height: 5.5vh;
+        width: 5.5vh;
+    }
+
+}
+
+
+@media screen and (max-width: 625px){
+    .gridSelectionImg{
+        width: 85vw;
+        grid-template-columns: repeat(5, 16vw);
+        grid-template-rows: 17vw;
+        margin: auto;
+    }
 }

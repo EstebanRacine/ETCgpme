@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="shortcut icon" href="images/logoETC.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logoETC2.png" type="image/x-icon">
     <link rel="stylesheet" href="CSS/quiSommesNous.css">
     <title>Qui sommes-nous ?</title>
 </head>
@@ -20,13 +20,15 @@
 
     <div class="contenuSavoirPlus">
         <div class="divVideoInfos">
-            <video src="videos/videoTest.mp4" class="videoPresentation" controls></video>
+            <div class="imgStartSommes">
+                <!--<video src="videos/videoTest.mp4" class="videoPresentation" controls></video>-->
+                <!--<img src="images/quiSommesNous/imagePersonnelETC.jpg" alt="Image des étudiants"></img>-->
+                <img src="images/quiSommesNous/ETCclasseComplet.jpg" alt="Image des étudiants"></img>
+                <p>Photo par Ludovic LAUDE pour l'Est Républicain</p>
+            </div>
             <div class="infosETC">
                 <h1>Enroule Ton Cable</h1>
-                <p>Nous sommes les élèves de première année de BTS GPME, nous avons créé notre mini-entreprise ETC
-                    (Enroule Ton Cable). Nous vous proposons un range-câble en matière recyclable de différents coloris.
-                    Suite à un sondage, nous avons constaté que les personnes les plus intéressés par notre produit sont
-                    autant masculins que féminins et pour la plupart lycéens ou salariés.</p>
+                <p>Étudiant(e)s en première année de BTS GPME, nous avons avec l'aide de nos professeurs Mesdames Bailly et Drezet, créé notre mini-entreprise ETC (Enroule Ton Câble).</p>
             </div>
         </div>
         <div class="infosPole">
@@ -70,12 +72,12 @@
                 <p>Spécialiste en carabine de biathlon, crosses et accessoires situé aux Rousses dans le Jura. Il a permis d'assurer l'étude, le développement et la fabrication de notre produit.</p>
             </div>
 
-<!--            <div class="partenaires">-->
-<!--                <img src="images/quiSommesNous/humbert.png" alt="Représentation de HUMBERT ELECTRICITE">-->
-<!--                <h2>HUMBERT Elécricité</h2>-->
-<!--                <h3>Romain HUMBERT</h3>-->
-<!--                <p>Notre mentor qui est situé à Sarrogna dans le Jura.</p>-->
-<!--            </div>-->
+            <!--            <div class="partenaires">-->
+            <!--                <img src="images/quiSommesNous/humbert.png" alt="Représentation de HUMBERT ELECTRICITE">-->
+            <!--                <h2>HUMBERT Elécricité</h2>-->
+            <!--                <h3>Romain HUMBERT</h3>-->
+            <!--                <p>Notre mentor qui est situé à Sarrogna dans le Jura.</p>-->
+            <!--            </div>-->
 
             <div class="partenaires">
                 <img src="images/quiSommesNous/salvi.png" alt="Logo de Salvi">
@@ -87,7 +89,7 @@
             <div class="partenaires">
                 <img src="images/quiSommesNous/travailCouleur.png" alt="Logo de Travail en couleur">
                 <h2>Travail en couleur</h2>
-                <h3>A AJOUTER</h3>
+                <h3>Sylvie DABERE</h3>
                 <p>Cette entreprise située à Doubs a assuré la fourniture et le marquage des t-shirts à l'effigie d'ETC. </p>
             </div>
 

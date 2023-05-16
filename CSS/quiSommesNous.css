@@ -9,14 +9,25 @@
     padding-bottom: 5vh;
 }
 
-.divVideoInfos video{
+.imgStartSommes{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:10px;
+}
+
+.imgStartSommes p{
+    font-size:0.9em;
+    padding-top:10px;
+}
+
+.divVideoInfos img{
     height: auto;
-    width: 90%;
-    max-height: 350px;
-    max-width: 550px;
+    height: 90%;
     align-self: center;
     justify-self: center;
-    cursor: pointer;
+    cursor: default;
     border-radius: 10px;
 }
 
@@ -192,17 +203,24 @@ article img{
         margin: auto;
     }
 
-    .divVideoInfos video{
-        /*height: 28vh;*/
-        height: auto;
-        width: 100%;
+    .imgStartSommes{
+        padding:0;
+    }
+
+    .divVideoInfos img{
+        height:auto;
+        width: 85%;
         border-radius: 10px;
         margin-top: 40px;
-        margin-bottom: 60px;
+        /*margin-bottom: 30px;*/
     }
 
     .infosETC{
         padding: 0;
+    }
+
+    .infosETC p{
+        padding-top:10px;
     }
 
     .infosPartenaires{

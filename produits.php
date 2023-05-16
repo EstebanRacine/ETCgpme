@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/produit.css">
-    <link rel="shortcut icon" href="images/logoETC.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logoETC2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Nos Produits</title>
@@ -19,7 +19,7 @@
     ?>
 
     <div class="contenuProduits">
-        <h1>Découvrez notre boite range câble et prise !</h1>
+        <h1>Une boite range câble et prise</h1>
         <div class="infosProd">
             <div class="imagesProd">
                 <img id="imgActive" src="images/produits/prod1.jpg" alt="Image principal du produit">
@@ -33,16 +33,12 @@
             </div>
             <div class="descrProd">
                 <p>
-                    Nous vous présentons un produit innovant qui va vous permettre de ranger votre propre câble.
-                    <br><br> Le range câble d'ETC vous donne la possibilité de transporter vos câbles
-                    sans qu'ils ne risquent de s'abimer.<br><br> Il est facile d'utilisation et est
-                    utilisable pour tout type d'appareil que ce soit Android ou Apple.<br><br>
-                    Ce produit est recyclable et fait à partir de matières réutilisables,
-                    écologiques telles que l’amidon de maïs. <br><br> Notre produit se distingue
-                    de par son emballage qui est une boîte faite à partir de bois issu de
-                    Haut-Doubs (local) provenant de l’entreprise Salvi (artisan sanglier) à
-                    Vaux et Chantegrue. Cette boîte a pour fonctionnalité de renfermer le
-                    produit pour le sécuriser.
+                    Nous vous présentons un produit innovant qui va vous permettre de ranger votre propre câble de
+                    chargeur de téléphone avec sa prise. <br><br> Grâce à notre boîte Enroule Ton Câble, celui-ci ne
+                    s'abimera pas.<br><br> Simple d'utilisation notre produit est compatible avec tous types de smartphones
+                    (Apple et Android).<br><br> Ce produit recyclable est fabriqué à partir d'amidon de maïs et de copeaux de bois.
+                    <br><br>Vous voulez l'offrir en cadeau ? Nous vous proposons également un emballage fabriqué à partir
+                    de bois du Haut-Doubs.
                 </p>
                 <h2>Prix du produit : 10 €</h2>
                 <h2>Prix avec son emballage : 11 €</h2>
@@ -57,11 +53,12 @@
                 <h3> <i class="fa-sharp fa-solid fa-weight-hanging"></i> Poids : 65g</h3>
                 <h3> <i class="fa-solid fa-plug"></i> Compatible avec les câbles d'un mètre maximum</h3>
                 <h3> <i class="fa-solid fa-palette"></i> Coloris disponibles : </h3>
-                <h3> <span class="rondCouleur bleu"></span>
-                    <span class="rondCouleur orange"></span>
-                    <span class="rondCouleur vert"></span>
+                <h3 id="groupRound"> <span class="rondCouleur multicolore"></span>
                     <span class="rondCouleur violet"></span>
-                    <span class="rondCouleur rouge"></span>
+                    <span class="rondCouleur bleu-vert"></span>
+                    <span class="rondCouleur or-argent"></span>
+                    <span class="rondCouleur rouge-noir"></span>
+                    <span class="rondCouleur bois"></span>
                 </h3>
             </div>
             <img id="imageCarac" src="images/produits/imgCarac.jpg" alt="Image de décoration représentant plusieurs range cable">

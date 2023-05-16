@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="CSS/contact.css">
-    <link rel="shortcut icon" href="images/logoETC.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/logoETC2.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Qui Sommes-Nous ?</title>
 </head>
@@ -27,7 +27,7 @@
             <a href="https://www.instagram.com/etcgpme/" target="_blank"><i class="fa-brands fa-instagram"></i> @etcgpme </a>
             <a href="https://www.tiktok.com/@etcgpgme" target="_blank"><i class="fa-brands fa-tiktok"></i> @etcgpme</a>
             <a href="https://www.facebook.com/profile.php?id=100091503001565" target="_blank"><i class="fa-brands fa-facebook-f"></i> ETC GPME </a>
-            <a target="_blank" href="https://www.linkedin.com/in/b%C3%BC%C5%9Fra-polat-29004426a/?originalSubdomain=fr"><i class="fa-brands fa-linkedin-in"></i> Büşra POLAT </a>
+            <a target="_blank" href="https://fr.linkedin.com/in/etc-gpme-29004426a"><i class="fa-brands fa-linkedin-in"></i> ETC GPME </a>
         </div>
         <div class="blocAbsContact">
             <h1 class="titreContact">Nous Contacter</h1>
