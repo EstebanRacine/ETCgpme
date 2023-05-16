@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d72f55ac-169f-4f80-8461-d60e14f758e5" name="Changes" comment="page qSN modif">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d72f55ac-169f-4f80-8461-d60e14f758e5" name="Changes" comment="page qSN modif" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,6 +73,7 @@
       <workItem from="1682413486257" duration="14933000" />
       <workItem from="1683022341688" duration="3110000" />
       <workItem from="1684241548914" duration="720000" />
+      <workItem from="1684245069270" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="Créaton de fichiers + header">
       <created>1680629748696</created>
@@ -202,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684241611952</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="page qSN modif">
+      <created>1684245115224</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684245115224</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
