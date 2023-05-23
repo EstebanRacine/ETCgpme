@@ -32,7 +32,7 @@
         <div class="blocAbsContact">
             <h1 class="titreContact">Nous Contacter</h1>
             <h1 class="TitreTel contactMail">Envoyez nous un email</h1>
-            <a href="mailto:etc.gpme@gmail.com" onmouseover="document.getElementById('gifEnveloppe').src='images/contact/mail-mouv.gif'" onmouseout="document.getElementById('gifEnveloppe').src='images/contact/mail-static.png'"><img id="gifEnveloppe" src="images/contact/mail-static.png" alt="Image d'enveloppe" >etc.gpme@gmail.com</a>
+            <a href="mailto:etcgpme@gmail.com" onmouseover="document.getElementById('gifEnveloppe').src='images/contact/mail-mouv.gif'" onmouseout="document.getElementById('gifEnveloppe').src='images/contact/mail-static.png'"><img id="gifEnveloppe" src="images/contact/mail-static.png" alt="Image d'enveloppe" >etcgpme@gmail.com</a>
         </div>
     </div>
 
