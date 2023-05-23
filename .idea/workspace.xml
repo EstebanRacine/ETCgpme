@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d72f55ac-169f-4f80-8461-d60e14f758e5" name="Changes" comment="page qSN modif" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="2Ny8Rhl4mjGp9fvBz9YsP8wiAcr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/33636/Desktop/Esteban/cours/SIO1/ETC&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\33636\Desktop\Esteban\cours\SIO1\ETC\CSS" />
+      <recent name="C:\Users\33636\Desktop\Esteban\cours\SIO1\ETC\images\contact" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\33636\Desktop\Esteban\cours\SIO1\ETC" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d72f55ac-169f-4f80-8461-d60e14f758e5" name="Changes" comment="" />
+      <created>1680624954895</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680624954895</updated>
+      <workItem from="1680624956207" duration="4756000" />
+      <workItem from="1680777001696" duration="364000" />
+      <workItem from="1680787615559" duration="7927000" />
+      <workItem from="1680795910262" duration="661000" />
+      <workItem from="1681187895002" duration="16786000" />
+      <workItem from="1681283251977" duration="995000" />
+      <workItem from="1681408586726" duration="1028000" />
+      <workItem from="1681904874939" duration="4034000" />
+      <workItem from="1682166480272" duration="12749000" />
+      <workItem from="1682185097153" duration="12000" />
+      <workItem from="1682413486257" duration="14933000" />
+      <workItem from="1683022341688" duration="3110000" />
+      <workItem from="1684241548914" duration="720000" />
+      <workItem from="1684245069270" duration="620000" />
+    </task>
+    <task id="LOCAL-00001" summary="Créaton de fichiers + header">
+      <created>1680629748696</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680629748696</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout bouton accueil header">
+      <created>1680777339482</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680777339482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fin Header">
+      <created>1680795519257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680795519257</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fin Header">
+      <created>1680808314792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680808314792</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Header + footer">
+      <created>1681191294337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681191294337</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Contenu img/video Qui-Sommes-Nous ?">
+      <created>1681191900835</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681191900835</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Page Qui Sommes-Nous ?">
+      <created>1681283505240</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681283505240</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Page Qui Sommes-Nous ?">
+      <created>1681904946459</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681904946459</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Page Accueil">
+      <created>1681908744273</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681908744273</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Page Accueil">
+      <created>1682168247717</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682168247717</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Page Contact">
+      <created>1682182992145</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682182992145</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Header">
+      <created>1682413569301</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682413569301</updated>
+    </task>
+    <task id="LOCAL-00013" summary="QuiSommesNous">
+      <created>1682425731044</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682425731044</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Produits">
+      <created>1682437702136</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682437702136</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Produits">
+      <created>1682437715167</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682437715167</updated>
+    </task>
+    <task id="LOCAL-00016" summary="page produit modif">
+      <created>1683026831773</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683026831773</updated>
+    </task>
+    <task id="LOCAL-00017" summary="page qSN modif">
+      <created>1683027548899</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683027548899</updated>
+    </task>
+    <task id="LOCAL-00018" summary="page qSN modif">
+      <created>1684241611952</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684241611952</updated>
+    </task>
+    <task id="LOCAL-00019" summary="page qSN modif">
+      <created>1684245115224</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684245115224</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Créaton de fichiers + header" />
+    <MESSAGE value="Ajout bouton accueil Nav" />
+    <MESSAGE value="Ajout bouton accueil header" />
+    <MESSAGE value="Fin Header" />
+    <MESSAGE value="Header + footer" />
+    <MESSAGE value="Contenu img/video Qui-Sommes-Nous ?" />
+    <MESSAGE value="Page Qui Sommes-Nous ?" />
+    <MESSAGE value="Page Accueil" />
+    <MESSAGE value="Page Contact" />
+    <MESSAGE value="Header" />
+    <MESSAGE value="QuiSommesNous" />
+    <MESSAGE value="Produits" />
+    <MESSAGE value="page produit modif" />
+    <MESSAGE value="page qSN modif" />
+    <option name="LAST_COMMIT_MESSAGE" value="page qSN modif" />
+  </component>
+</project>
